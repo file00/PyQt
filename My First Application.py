@@ -10,7 +10,7 @@ class MyFirstApplication(QMainWindow):
         self.initUI()
 
     def initUI(self):
-        exitAction = QAction(QIcon('exit.png'),'Exit',self)
+        exitAction = QAction(QIcon('Any photo file is fine.'),'Exit',self)
         exitAction.setShortcut('Ctrl+Q')
         exitAction.setStatusTip('Exit Application')
         exitAction.triggered.connect(qApp.quit)
@@ -35,7 +35,7 @@ class MyFirstApplication(QMainWindow):
 
         self.statusBar().showMessage(self.date.toString(Qt.DefaultLocaleLongDate))
         self.setWindowTitle('My First Application')
-        self.setWindowIcon(QIcon('Python.png'))
+        self.setWindowIcon(QIcon('Any photo file is fine.'))
         self.setGeometry(300,300,500,300)
         self.show()
 
