@@ -29,7 +29,7 @@ class MyFirstApplication(QMainWindow):
         QToolTip.setFont((QFont('SansSerif',10)))
         self.setToolTip('This is a <b>QPushButton</b> widget')
         btn = QPushButton('Quit',self)
-        btn.move(400,260) # Quit 버튼 위치 이동
+        btn.move(400,260) # Move the Quit button position
         btn.resize(btn.sizeHint())
         btn.clicked.connect(QCoreApplication.instance().quit)
 
