@@ -3,7 +3,7 @@ import sys
 from PyQt5.QtWidgets import *
 from PyQt5 import uic
 
-form_class = uic.loadUiType('MyStudy.ui')[0] # ui file connection (but the ui file must be located in the same directory as the Python code file)
+form_class = uic.loadUiType('ui_File')[0] # ui file connection (but the ui file must be located in the same directory as the Python code file)
 
 # Class declaration used to display the screen
 class WindowClass(QMainWindow, form_class):
