@@ -1,4 +1,4 @@
-# # Default code for UI Designer.exe
+# Default code for UI Designer.exe
 import sys
 from PyQt5.QtWidgets import *
 from PyQt5 import uic
