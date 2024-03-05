@@ -1,6 +1,10 @@
-# What is PyQt?
+# - What is PyQt?
 # PyQt is a framework that allows you to create GUI programs by connecting Python's code to Qt's layout. 
 # PyQt started by creating a tool that converts Qt, C++'s Cross Platform GUI Framework, from Riverbank Computing in the UK to Python modules. Currently, versions of PyQt4 and PyQt5 are mainly used.
+
+# - Characteristics of PyQt
+# In Python, there are various GUI frameworks such as PyGTK, PySide, and Tkinter. However, these GUI frameworks are difficult to use and have the disadvantage of not being visually pretty.
+# Unlike these frameworks, PyQt has the advantage of being able to design programs easily using a program called Qt Designer while showing a good visual design
 
 import sys
 from PyQt5.QtWidgets import (QApplication,QMainWindow, QAction, QWidget, QPushButton, QToolTip, qApp)
